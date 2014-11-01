@@ -4,7 +4,7 @@
 (package-initialize)
 
 ;; Add my config module path
-(add-to-list 'load-path "~/.emacs.d/custom/")
-
+(add-to-list 'load-path "~/.emacs.d/custom")
 ;; Load my module
 (require 'setup-convenience)
+(require 'setup-editing)
