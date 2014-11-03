@@ -5,6 +5,15 @@
 
 ;; Add my config module path
 (add-to-list 'load-path "~/.emacs.d/custom")
+
 ;; Load my module
-(require 'setup-convenience)
 (require 'setup-editing)
+(require 'setup-convenience)
+(require 'setup-environment)
+(require 'setup-files)
+(require 'setup-communication)
+(require 'setup-programming)
+(require 'setup-faces-and-ui.el)
+
+(load-theme 'monokai t)
+
