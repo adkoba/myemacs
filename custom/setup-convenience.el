@@ -8,3 +8,10 @@
 
 (require 'workgroups2)
 (workgroups-mode 1)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE: company              ;;
+;; Name stands fro "complete anything"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
