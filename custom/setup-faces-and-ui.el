@@ -1,4 +1,4 @@
-(provide 'setup-faces-and-ui.el)
+(provide 'setup-faces-and-ui)
 
 ;; you won't need any of the bar thingies
 ;; turn it off to save screen estate
