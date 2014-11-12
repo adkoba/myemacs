@@ -1,10 +1,11 @@
 (provide 'setup-cmake)
 
-; Add cmake listfile names to the mode list.
+(require 'cmake-mode)
+
 (setq auto-mode-alist
 	  (append
 	   '(("CMakeLists\\.txt\\'" . cmake-mode))
 	   '(("\\.cmake\\'" . cmake-mode))
 	   auto-mode-alist))
 
-(autoload 'cmake-mode "/usr/share/emacs/site-lisp/cmake/cmake-mode.el" t)
+(cmake-mode)

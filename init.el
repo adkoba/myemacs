@@ -21,7 +21,10 @@
     ztree
     diff-hl
     magit
-    highlight-symbol))
+    highlight-symbol
+    cmake-mode
+    nyan-mode
+    monokai-theme))
 
 (defun install-packages ()
   "Install all required packages."
