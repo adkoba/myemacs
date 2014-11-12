@@ -43,6 +43,7 @@
 (require 'setup-programming)
 (require 'setup-faces-and-ui)
 (require 'setup-c-c++-devel)
+(require 'setup-cmake)
 
 (load-theme 'monokai t)
-
+(global-linum-mode 1)

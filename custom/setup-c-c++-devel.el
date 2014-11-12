@@ -1,5 +1,8 @@
 (provide 'setup-c-c++-devel)
 
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
+
 (require 'ggtags)
 (add-hook 'c-mode-common-hook
 	  (lambda (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
