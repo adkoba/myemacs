@@ -24,7 +24,8 @@
     highlight-symbol
     cmake-mode
     nyan-mode
-    monokai-theme))
+    monokai-theme
+    cuda-mode))
 
 (defun install-packages ()
   "Install all required packages."
